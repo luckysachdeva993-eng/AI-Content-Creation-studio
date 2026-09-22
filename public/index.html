@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Content Creation Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <!-- MAIN HEADING -->
+
+        <h1>AI Content Creation Studio</h1>
+
+        <p class="subtitle">
+            Create professional digital content with the help of
+            Generative AI.
+        </p>
+
+
+        <!-- CONTENT TYPE SECTION -->
+
+        <h2>Select Content Type</h2>
+
+        <div class="content-types">
+
+            <button
+                class="content-button"
+                data-type="text">
+
+                Text Content
+
+            </button>
+
+
+            <button
+                class="content-button"
+                data-type="image">
+
+                Image Prompt
+
+            </button>
+
+
+            <button
+                class="content-button"
+                data-type="poster">
+
+                Poster Prompt
+
+            </button>
+
+
+            <button
+                class="content-button"
+                data-type="video">
+
+                Video Prompt
+
+            </button>
+
+
+            <button
+                class="content-button"
+                data-type="song">
+
+                Song Prompt
+
+            </button>
+
+        </div>
+
+
+        <!-- IDEA INPUT SECTION -->
+
+        <h2>Describe Your Idea</h2>
+
+        <textarea
+            id="userIdea"
+            rows="6"
+            placeholder="Describe what you want to create...">
+        </textarea>
+
+
+        <!-- GENERATE BUTTON -->
+
+        <button
+            class="generate-button"
+            id="generateButton">
+
+            Generate with AI
+
+        </button>
+
+
+        <!-- RESULT SECTION -->
+
+        <h2>Generated Result</h2>
+
+        <div
+            class="result-box"
+            id="result">
+
+            Your generated content will appear here.
+
+        </div>
+
+
+        <!-- COPY BUTTON -->
+
+        <button
+            class="copy-button"
+            id="copyButton">
+
+            Copy Result
+
+        </button>
+
+
+        <!-- HISTORY SECTION -->
+
+        <h2>Generation History</h2>
+
+        <button
+            class="clear-button"
+            id="clearHistoryButton">
+
+            Clear History
+
+        </button>
+
+
+        <div
+            class="history-box"
+            id="history">
+
+            No history available yet.
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
